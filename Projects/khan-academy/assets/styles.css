@@ -1,0 +1,30 @@
+nav {
+    
+}
+nav li{
+list-style: none;
+display: inline;
+}
+
+main {
+    width: 100%;
+    
+}
+.main-image {
+    width: 50%;
+    float: left;
+}
+.information {
+    width:50%;
+    float: right;
+    height: 50%;
+}
+
+main li {
+    list-style: none;
+    background-color: blue;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2px;
+    margin: 20px;
+}
